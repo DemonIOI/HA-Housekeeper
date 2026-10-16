@@ -99,6 +99,11 @@
         }
       }
     },
+    "event": {
+      "hausfunktionen": {
+        "name": "Функции дома"
+      }
+    },
     "button": {
       "scan": {
         "name": "Запустить проверку"
