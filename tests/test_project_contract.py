@@ -43,10 +43,12 @@ def test_manifest_version_matches_latest_changelog_entry() -> None:
 
 
 def test_manifest_points_to_the_owner_repository() -> None:
+    # This fork (DemonIOI/HA-Housekeeper-RU) is the distribution; upstream is
+    # credited in the README, donations and the license stay with the author.
     manifest = _json(COMPONENT / "manifest.json")
-    assert manifest["codeowners"] == ["@bertel2020"]
-    assert manifest["documentation"].startswith("https://github.com/bertel2020/")
-    assert manifest["issue_tracker"].startswith("https://github.com/bertel2020/")
+    assert manifest["codeowners"] == ["@DemonIOI"]
+    assert manifest["documentation"].startswith("https://github.com/DemonIOI/HA-Housekeeper-RU")
+    assert manifest["issue_tracker"].startswith("https://github.com/DemonIOI/HA-Housekeeper-RU")
 
 
 def test_german_and_english_translation_keys_match() -> None:

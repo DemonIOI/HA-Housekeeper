@@ -12,7 +12,7 @@
     "blueprint"
   ],
   "codeowners": [
-    "@bertel2020"
+    "@DemonIOI"
   ],
   "config_flow": true,
   "dependencies": [
@@ -20,10 +20,10 @@
     "http",
     "websocket_api"
   ],
-  "documentation": "https://github.com/bertel2020/HA-Housekeeper",
+  "documentation": "https://github.com/DemonIOI/HA-Housekeeper-RU",
   "integration_type": "service",
   "iot_class": "calculated",
-  "issue_tracker": "https://github.com/bertel2020/HA-Housekeeper/issues",
+  "issue_tracker": "https://github.com/DemonIOI/HA-Housekeeper-RU/issues",
   "single_config_entry": true,
   "version": "1.10.1"
 }
