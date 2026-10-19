@@ -160,3 +160,13 @@ class SearchPagesMixin {
     if (view === "changes" && !this.compare) this.loadCompare();
   }
 }
+
+// === RU v1.10.1 search synonyms (i18n-ru/gemini-v110/result) ===
+const RU_SEARCH_WORDS_DELTA = {
+  "removedDevices": "удалено удалённые забытые устройства",
+  "exceptions": "скрытые игнорируемые исключения правила отпуск",
+  "backup": "резервная копия копии бэкап защита",
+  "updates": "обновления актуализация прошивка хакс",
+  "blueprints": "чертежи шаблоны неиспользуемые сломанные"
+};
+for (const [key, words] of Object.entries(RU_SEARCH_WORDS_DELTA)) SEARCH_WORDS[key] += " " + words;
