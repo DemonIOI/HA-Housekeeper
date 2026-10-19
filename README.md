@@ -1,19 +1,19 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bertel2020/HA-Housekeeper/main/custom_components/ha_housekeeper/brand/logo.png" alt="HA Housekeeper RU" width="160">
+  <img src="https://raw.githubusercontent.com/DemonIOI/HA-Housekeeper-RU/main/custom_components/ha_housekeeper/brand/logo.png" alt="HA Housekeeper RU" width="160">
 </p>
 
 <h1 align="center">HA Housekeeper RU</h1>
 
 <p align="center">
   Обслуживание и анализ Home Assistant — инвентарь, диагностика и зависимости на одном экране.<br>
-  Полная русская локализация интеграции <a href="https://github.com/bertel2020/HA-Housekeeper">HA Housekeeper</a>.
+  Полная русская локализация интеграции HA Housekeeper.
 </p>
 
 <p align="center">
   <a href="https://github.com/hacs/integration"><img src="https://img.shields.io/badge/HACS-Custom-41BDF5.svg" alt="HACS Custom"></a>
   <a href="https://www.home-assistant.io/"><img src="https://img.shields.io/badge/Home%20Assistant-Custom%20Integration-18BCF2.svg?logo=home-assistant&logoColor=white" alt="Home Assistant"></a>
   <a href="https://github.com/DemonIOI/HA-Housekeeper-RU/releases"><img src="https://img.shields.io/github/v/release/DemonIOI/HA-Housekeeper-RU?sort=semver&include_prereleases" alt="Release"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/bertel2020/HA-Housekeeper" alt="License"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/DemonIOI/HA-Housekeeper-RU" alt="License"></a>
 </p>
 
 <p align="center">
