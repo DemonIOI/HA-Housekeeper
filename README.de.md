@@ -1,19 +1,20 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bertel2020/HA-Housekeeper/main/custom_components/ha_housekeeper/brand/logo.png" alt="HA Housekeeper" width="160">
+  <img src="https://raw.githubusercontent.com/DemonIOI/HA-Housekeeper-RU/main/custom_components/ha_housekeeper/brand/logo.png?v=3" alt="HA Housekeeper" width="160">
 </p>
 
-<h1 align="center">HA Housekeeper</h1>
+<h1 align="center">HA Housekeeper RU</h1>
 
 <p align="center">
   Wartung und Analyse für Home Assistant: Inventar, Diagnose und Abhängigkeiten auf einen Blick.
 </p>
 
+<p align="center">Russisch lokalisierte Ausgabe von <a href="https://github.com/bertel2020/HA-Housekeeper">HA Housekeeper</a>. Spenden und Lizenz bleiben beim ursprünglichen Autor.</p>
+
 <p align="center">
   <a href="https://github.com/hacs/integration"><img src="https://img.shields.io/badge/HACS-Custom-41BDF5.svg" alt="HACS Custom"></a>
   <a href="https://www.home-assistant.io/"><img src="https://img.shields.io/badge/Home%20Assistant-Custom%20Integration-18BCF2.svg?logo=home-assistant&logoColor=white" alt="Home Assistant"></a>
-  <a href="https://github.com/bertel2020/HA-Housekeeper/releases"><img src="https://img.shields.io/github/v/release/bertel2020/HA-Housekeeper?sort=semver&include_prereleases" alt="Release"></a>
-  <a href="https://github.com/bertel2020/HA-Housekeeper/actions/workflows/validate.yml"><img src="https://github.com/bertel2020/HA-Housekeeper/actions/workflows/validate.yml/badge.svg" alt="Validate"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/bertel2020/HA-Housekeeper" alt="License"></a>
+  <a href="https://github.com/DemonIOI/HA-Housekeeper-RU/releases"><img src="https://img.shields.io/github/v/release/DemonIOI/HA-Housekeeper-RU?sort=semver&include_prereleases&cacheSeconds=300" alt="Release"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/DemonIOI/HA-Housekeeper-RU" alt="License"></a>
 </p>
 
 <p align="center">
@@ -22,7 +23,7 @@
   <a href="https://paypal.me/RobertoMartins"><img src="https://img.shields.io/badge/PayPal-donate-00457C?logo=paypal&logoColor=white" alt="PayPal"></a>
 </p>
 
-<p align="center"><em><a href="https://github.com/bertel2020/HA-Housekeeper/blob/main/README.md">English version</a></em></p>
+<p align="center"><em>Andere Sprachen: <a href="README.md">Русский</a> · <a href="README.en.md">English</a></em></p>
 
 HA Housekeeper ist eine Wartungs- und Analyseintegration für Home Assistant. Sie erstellt ein übersichtliches Inventar der Installation, erklärt verdächtige oder verwaiste Objekte und zeigt, wie Entitäten, Geräte, Integrationen, Bereiche und Automationen voneinander abhängen.
 
@@ -71,7 +72,7 @@ Housekeeper verbindet Registry-Daten mit der laufenden Home-Assistant-Instanz un
 
 1. HA Housekeeper über den Button in HACS öffnen, herunterladen und Home Assistant neu starten.
 
-   [![HACS-Repository in My Home Assistant öffnen](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=bertel2020&repository=HA-Housekeeper&category=integration)
+   [![HACS-Repository in My Home Assistant öffnen](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=DemonIOI&repository=HA-Housekeeper-RU&category=integration)
 
 2. **Integration hinzufügen** (nicht optional): **Einstellungen → Geräte & Dienste → Integration hinzufügen → HA Housekeeper** oder über den Button. Ohne diesen Schritt erscheint kein Menüpunkt.
 
@@ -98,7 +99,7 @@ Die Versionshinweise auf Deutsch und Englisch stehen in [CHANGELOG.md](CHANGELOG
 
 ## Dank an die Contributors
 
-Vielen Dank an [@jayjojayson](https://github.com/jayjojayson) für die Beiträge und das Feedback, die HA Housekeeper besser gemacht haben.
+Vielen Dank an [@jayjojayson](https://github.com/jayjojayson) für die Beiträge und das Feedback, die HA Housekeeper besser gemacht haben. Russische Lokalisierung: [DemonIOI](https://github.com/DemonIOI).
 
 ## Haftungsausschluss
 

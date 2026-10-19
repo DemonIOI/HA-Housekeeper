@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DemonIOI/HA-Housekeeper-RU/main/custom_components/ha_housekeeper/brand/logo.png?v=2" alt="HA Housekeeper RU" width="160">
+  <img src="https://raw.githubusercontent.com/DemonIOI/HA-Housekeeper-RU/main/custom_components/ha_housekeeper/brand/logo.png?v=3" alt="HA Housekeeper RU" width="160">
 </p>
 
 <h1 align="center">HA Housekeeper RU</h1>
@@ -22,7 +22,7 @@
   <a href="https://paypal.me/RobertoMartins"><img src="https://img.shields.io/badge/PayPal-поддержать%20автора-00457C?logo=paypal&logoColor=white" alt="PayPal"></a>
 </p>
 
-<p align="center"><em>Другие языки: <a href="README.en_de.md#english">English</a> · <a href="README.en_de.md#deutsch">Deutsch</a></em></p>
+<p align="center"><em>Другие языки: <a href="README.en.md">English</a> · <a href="README.de.md">Deutsch</a></em></p>
 
 HA Housekeeper — интеграция обслуживания и анализа для Home Assistant. Она строит наглядный инвентарь вашей установки, объясняет подозрительные и «осиротевшие» объекты и показывает, как сущности, устройства, интеграции, зоны и автоматизации зависят друг от друга.
 
