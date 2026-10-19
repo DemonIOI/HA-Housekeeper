@@ -1,115 +1,128 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bertel2020/HA-Housekeeper/main/custom_components/ha_housekeeper/brand/logo.png" alt="HA Housekeeper" width="160">
+  <img src="https://raw.githubusercontent.com/bertel2020/HA-Housekeeper/main/custom_components/ha_housekeeper/brand/logo.png" alt="HA Housekeeper RU" width="160">
 </p>
 
-<h1 align="center">HA Housekeeper</h1>
+<h1 align="center">HA Housekeeper RU</h1>
 
 <p align="center">
-  Maintenance and analysis for Home Assistant: inventory, diagnostics, and dependencies at a glance.
+  Обслуживание и анализ Home Assistant — инвентарь, диагностика и зависимости на одном экране.<br>
+  Полная русская локализация интеграции <a href="https://github.com/bertel2020/HA-Housekeeper">HA Housekeeper</a>.
 </p>
 
 <p align="center">
   <a href="https://github.com/hacs/integration"><img src="https://img.shields.io/badge/HACS-Custom-41BDF5.svg" alt="HACS Custom"></a>
   <a href="https://www.home-assistant.io/"><img src="https://img.shields.io/badge/Home%20Assistant-Custom%20Integration-18BCF2.svg?logo=home-assistant&logoColor=white" alt="Home Assistant"></a>
-  <a href="https://github.com/bertel2020/HA-Housekeeper/releases"><img src="https://img.shields.io/github/v/release/bertel2020/HA-Housekeeper?sort=semver&include_prereleases" alt="Release"></a>
-  <a href="https://github.com/bertel2020/HA-Housekeeper/actions/workflows/validate.yml"><img src="https://github.com/bertel2020/HA-Housekeeper/actions/workflows/validate.yml/badge.svg" alt="Validate"></a>
+  <a href="https://github.com/DemonIOI/HA-Housekeeper-RU/releases"><img src="https://img.shields.io/github/v/release/DemonIOI/HA-Housekeeper-RU?sort=semver&include_prereleases" alt="Release"></a>
   <a href="LICENSE"><img src="https://img.shields.io/github/license/bertel2020/HA-Housekeeper" alt="License"></a>
 </p>
 
 <p align="center">
-  <a href="https://buymeacoffee.com/bertel2020"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-support-FFDD00?logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee"></a>
-  <a href="https://ko-fi.com/bertel2020"><img src="https://img.shields.io/badge/Ko--fi-support-FF5E5B?logo=ko-fi&logoColor=white" alt="Ko-fi"></a>
-  <a href="https://paypal.me/RobertoMartins"><img src="https://img.shields.io/badge/PayPal-donate-00457C?logo=paypal&logoColor=white" alt="PayPal"></a>
+  <a href="https://buymeacoffee.com/bertel2020"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-поддержать%20автора-FFDD00?logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee"></a>
+  <a href="https://ko-fi.com/bertel2020"><img src="https://img.shields.io/badge/Ko--fi-поддержать%20автора-FF5E5B?logo=ko-fi&logoColor=white" alt="Ko-fi"></a>
+  <a href="https://paypal.me/RobertoMartins"><img src="https://img.shields.io/badge/PayPal-поддержать%20автора-00457C?logo=paypal&logoColor=white" alt="PayPal"></a>
 </p>
 
-<p align="center"><em><a href="https://github.com/bertel2020/HA-Housekeeper/blob/main/README.de.md">Deutsche Version</a></em></p>
+<p align="center"><em>Другие языки: <a href="README.en_de.md#english">English</a> · <a href="README.en_de.md#deutsch">Deutsch</a></em></p>
 
-HA Housekeeper is a maintenance and analysis integration for Home Assistant. It creates a clear inventory of your installation, explains suspicious or orphaned objects, and shows how entities, devices, integrations, areas, and automations depend on each other.
+HA Housekeeper — интеграция обслуживания и анализа для Home Assistant. Она строит наглядный инвентарь вашей установки, объясняет подозрительные и «осиротевшие» объекты и показывает, как сущности, устройства, интеграции, зоны и автоматизации зависят друг от друга.
 
-The goal is not aggressive automatic cleanup. Housekeeper helps you understand what exists, why something is considered problematic, and what a cleanup or repair would affect before you confirm it.
+Цель — не агрессивная автоматическая чистка. Housekeeper сначала помогает понять, что существует в системе, почему объект считается проблемным и на что повлияет чистка или ремонт — до того, как вы подтвердите план.
 
-> Housekeeper reads and analyzes first. It changes something only after you explicitly confirm a plan. Plans cover quarantine and removal, repairs, replacing references, renaming entities, assigning areas, deleting unused automations, trimming recorder history and other maintenance tasks. Depending on the action, Housekeeper requires a quarantine period, an additional confirmation and a successful backup. Reversible changes can be undone while their targets remain unchanged; irreversible recorder and backup deletions are clearly marked. Integrations and hubs are never modified, and Housekeeper changes only what a confirmed plan names.
+> Housekeeper сначала читает и анализирует. Он меняет что-либо только после явного подтверждения плана. Планы охватывают карантин и удаление, ремонты, замену ссылок, переименование сущностей, назначение зон, удаление неиспользуемых автоматизаций, усечение истории Recorder и другие задачи обслуживания. В зависимости от действия Housekeeper требует карантинный срок, дополнительное подтверждение и успешный бэкап. Обратимые изменения можно отменить, пока их цели не изменились; необратимые удаления истории и бэкапов явно помечены. Интеграции и хабы никогда не изменяются, и Housekeeper меняет только то, что названо в подтверждённом плане.
 
-## Screenshots
+## Об этом форке
+
+Это форк [bertel2020/HA-Housekeeper](https://github.com/bertel2020/HA-Housekeeper) с **полной русской локализацией**. В отличие от оригинала здесь переведено:
+
+- **панель** (весь интерфейс: навигация, находки, чистка, журналы, настройки) с русскими грамматическими формами множественного числа;
+- **тексты интеграции** (config/options/services/entity/exceptions — `translations/ru.json`);
+- **уведомления и журналы**, которые интеграция пишет сама (отчёты аудита, причины мониторинга, уведомления о сломанных ссылках);
+- **русские поисковые синонимы** в поиске по панели.
+
+Русская версия отстаёт от апстрима минимально: новые релизы оригинала портируются с сохранением перевода. Текущая база — **v1.10.1**.
+
+> Открыт pull request [#23](https://github.com/bertel2020/HA-Housekeeper/pull/23) с русской локализацией в оригинальный репозиторий; пока автор его не рассмотрел, локализация живёт здесь. Если русификация попадёт в апстрим, форк вернётся к режиму «обновления следом за оригиналом».
+
+## Скриншоты
+
+Интерфейс панели в русской версии — на русском; ниже — скриншоты оригинала.
 
 <p align="center">
-  <img src="screenshots/showcase-en/overview-desktop-light.png" alt="Housekeeping overview" width="100%">
+  <img src="screenshots/showcase-en/overview-desktop-light.png" alt="Обзор Housekeeping" width="100%">
 </p>
 
-| Findings | Repair |
+| Находки | Ремонт |
 | --- | --- |
-| ![Findings](screenshots/showcase-en/findings-desktop-light.png) | ![Repair](screenshots/showcase-en/repair-desktop-light.png) |
+| ![Находки](screenshots/showcase-en/findings-desktop-light.png) | ![Ремонт](screenshots/showcase-en/repair-desktop-light.png) |
 
-| Tidy up | Dependency path |
+| Порядок | Путь зависимости |
 | --- | --- |
-| ![Tidy up](screenshots/showcase-en/cleanup-desktop-light.png) | ![Dependency path](screenshots/showcase-en/graph-desktop-light.png) |
+| ![Порядок](screenshots/showcase-en/cleanup-desktop-light.png) | ![Путь зависимости](screenshots/showcase-en/graph-desktop-light.png) |
 
-| Automations | Reliability |
+| Автоматизации | Надёжность |
 | --- | --- |
-| ![Automations](screenshots/showcase-en/runs-desktop-light.png) | ![Reliability](screenshots/showcase-en/reliability-desktop-light.png) |
+| ![Автоматизации](screenshots/showcase-en/runs-desktop-light.png) | ![Надёжность](screenshots/showcase-en/reliability-desktop-light.png) |
 
-## Why HA Housekeeper?
+## Почему HA Housekeeper?
 
-Mature Home Assistant installations often accumulate registry entries, unavailable entities, replaced devices, old statistics, and automation references that are difficult to assess safely. A missing state alone does not explain whether an entity was intentionally disabled, whether its integration is disabled, or whether the underlying device no longer exists.
+В зрелых установках Home Assistant накапливаются записи реестра, недоступные сущности, заменённые устройства, старая статистика и ссылки в автоматизациях, которые трудно безопасно оценить. Один лишь отсутствующий статус не объясняет, была ли сущность отключена намеренно, отключена ли её интеграция или устройство больше не существует.
 
-Housekeeper combines registry data and the live Home Assistant runtime to provide that context in one administrator-only panel.
+Housekeeper объединяет данные реестра и живую среду Home Assistant, чтобы дать этот контекст в одной панели, доступной только администраторам.
 
-## Highlights
+## Возможности
 
-- **Inventory and diagnostics**: entities, devices, integrations, areas and automations in one place; every object is classified (active, unavailable, disabled, orphaned) with a reason.
-- **Findings with impact**: broken references, orphaned and long-unavailable entities, possible duplicates, unused automations and low batteries, ranked by how much depends on them.
-- **Dependencies**: see what an entity, device or automation is connected to, and what would break if you removed it.
-- **Guided cleanup**: preview, explicit confirmation, backup, verification and undo, step by step. Nothing runs on its own.
-- **Maintenance views**: batteries, reliability of integrations, recorder load and database, backup protection, automation runs and more.
-- **Home functions**: put together important functions of your home (heating, alarm, photovoltaics) from your own objects and keep an eye on them, with history, availability and sensors. A mark such as “Offline on purpose” can apply only at night or at fixed times.
-- **Exception rules and vacation mode**: leave out objects by area, label, integration or type, or only while a vacation entity or calendar says you are away, so that expected outages stay quiet.
-- **AI access**: programs and AI agents that can call Home Assistant services (for example ha-mcp) read the findings and, if you allow it, mark them in Housekeeper's own list, never in Home Assistant. Off by default, with limits, an automatic switch-off, a log of every call and an undo.
-- **Changes since the last scan**, sensors, repair hints, a scan button and the service `ha_housekeeper.scan` for your own dashboards and automations and a watch after updates: what stopped working after an update or restart.
+- **Инвентарь и диагностика**: сущности, устройства, интеграции, зоны и автоматизации в одном месте; каждый объект классифицирован (активен, недоступен, отключён, осиротел) с указанием причины.
+- **Находки с оценкой влияния**: сломанные ссылки, осиротевшие и долго недоступные сущности, возможные дубликаты, неиспользуемые автоматизации и севшие батареи — упорядочены по тому, сколько на них завязано.
+- **Зависимости**: видно, с чем связана сущность, устройство или автоматизация и что сломается при удалении.
+- **Чистка с сопровождением**: предпросмотр, явное подтверждение, бэкап, проверка и отмена — шаг за шагом. Ничего не запускается само.
+- **Обслуживание**: батареи, надёжность интеграций, нагрузка на Recorder и базу данных, защита бэкапов, запуски автоматизаций и другое.
+- **Функции дома**: собирайте важные функции вашего дома (отопление, сигнализация, фотоэлектрика) из собственных объектов и держите их под контролем — с историей, доступностью и сенсорами. Пометка вроде «Отключено намеренно» может действовать только ночью или в фиксированное время.
+- **Правила-исключения и отпуск**: исключайте объекты по зоне, ярлыку, интеграции или типу — или только пока сущность отпуска или календарь сообщает об отсутствии, чтобы ожидаемые простои не шумели.
+- **Доступ для ИИ**: программы и ИИ-агенты, вызывающие сервисы Home Assistant (например ha-mcp), читают находки и, если разрешите, помечают их в собственном списке Housekeeper — никогда в самом Home Assistant. По умолчанию выключено, с лимитами, автостопом, журналом каждого вызова и отменой.
+- **Изменения с последнего сканирования**, сенсоры, подсказки по ремонту, кнопка сканирования и сервис `ha_housekeeper.scan` для своих дашбордов и автоматизаций, а также наблюдение после обновлений: что перестало работать после обновления или перезагрузки.
 
-## Quick start
+## Быстрый старт
 
-1. Open HA Housekeeper in HACS with the button below, download it and restart Home Assistant.
+1. Добавьте этот репозиторий в HACS как **integration** (HACS → ⋮ → «Custom repositories» → `https://github.com/DemonIOI/HA-Housekeeper-RU`), скачайте **HA Housekeeper RU** и перезапустите Home Assistant.
 
-   [![Open the HACS repository in My Home Assistant](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=bertel2020&repository=HA-Housekeeper&category=integration)
+   [![Открыть репозиторий HACS в My Home Assistant](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=DemonIOI&repository=HA-Housekeeper-RU&category=integration)
 
-2. **Add the integration** (not optional): **Settings → Devices & services → Add integration → HA Housekeeper**, or use the button below. Without this step no sidebar entry appears.
+2. **Добавьте интеграцию** (обязательный шаг): **Настройки → Устройства и службы → Добавить интеграцию → HA Housekeeper**, или по кнопке ниже. Без этого шага пункт в боковой панели не появится.
 
-   [![Add HA Housekeeper to My Home Assistant](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=ha_housekeeper)
+   [![Добавить HA Housekeeper в My Home Assistant](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=ha_housekeeper)
 
-3. Open **Housekeeper** in the sidebar as an administrator. The first scan runs automatically; **Scan now** refreshes it.
-4. Start with **Findings** and open a finding to see the cause and what depends on it. Under **Clean up** you build a plan, which only shows a preview until you confirm it.
+3. Откройте **Housekeeper** в боковой панели как администратор. Первое сканирование запустится само; «Сканировать сейчас» обновит его.
+4. Начните с **Находок** и откройте находку, чтобы увидеть причину и что от неё зависит. В разделе «Порядок» собирается план — до подтверждения он показывает только предпросмотр.
 
-> New installs start in protection mode **read only**. To let Housekeeper change something, raise it under **Settings → Protection mode**.
+> Новые установки стартуют в режиме защиты **«только чтение»**. Чтобы Housekeeper мог что-то менять, поднимите режим в **Настройки → Режим защиты**.
 
-More on installation (manual, custom repository), every view and all settings is in the **[User Guide](docs/USER-GUIDE.md)**.
+Подробности по установке (вручную, через сторонний репозиторий), все экраны и настройки — в оригинальном **[руководстве пользователя](docs/USER-GUIDE.md)** (на английском).
 
-## Safety in short
+## О безопасности коротко
 
-- The panel is for administrators only.
-- Housekeeper reads and analyzes first; every change is a plan you confirm, with a backup where the action needs one.
-- Integrations and hubs are never modified, no `.storage` file is edited directly, and nothing is cleaned up automatically.
+- Панель доступна только администраторам.
+- Housekeeper сначала читает и анализирует; каждое изменение — это план, который вы подтверждаете, с бэкапом там, где действию он нужен.
+- Интеграции и хабы никогда не изменяются, файлы `.storage` не правятся напрямую, ничего не чистится автоматически.
 
-Details: [Safety model](docs/USER-GUIDE.md#safety-model) and [Current limitations](docs/USER-GUIDE.md#current-limitations).
+Подробности: [модель безопасности](docs/USER-GUIDE.md#safety-model) и [текущие ограничения](docs/USER-GUIDE.md#current-limitations) (на английском).
 
-## Changelog
+## Обновления
 
-See [CHANGELOG.md](CHANGELOG.md) for release notes in English and German.
+Релизы этого форка выходят следом за релизами оригинала и называются так же (`v1.10.1`, `v1.11.0`, …). HACS предложит обновление, когда в форке появится новый релиз; русский перевод всегда покрывает все строки текущей версии.
 
-## Thanks to the contributors
+## Журнал изменений
 
-Many thanks to [@jayjojayson](https://github.com/jayjojayson) for the contributions and feedback that helped improve HA Housekeeper.
+Оригинальные release notes на английском и немецком — [CHANGELOG.md](CHANGELOG.md).
 
-## Disclaimer
+## Благодарности
 
-HA Housekeeper is a privately developed, free open-source project and is provided
-without warranty or guarantee. Use is at your own risk; in particular, no guarantee
-can be given for error-free operation or for the correctness, completeness,
-availability or lasting preservation of configuration and data. **Housekeeper can
-change or remove entries, files and statistics in your Home Assistant installation.
-Therefore make a Home Assistant backup before every cleanup and make independent
-backups regularly, also outside the Home Assistant system.**
+Большое спасибо [@bertel2020](https://github.com/bertel2020) — автору HA Housekeeper — и [@jayjojayson](https://github.com/jayjojayson) за вклад и отзывы, помогшие улучшить интеграцию. Русская локализация — [DemonIOI](https://github.com/DemonIOI); часть перевода подготовлена с помощью Gemini.
 
-## License
+## Отказ от ответственности
 
-This project is released under the [MIT License](LICENSE).
-Copyright 2026 Roberto / bertel2020.
+HA Housekeeper — частный бесплатный open-source проект, предоставляемый без гарантий. Используйте на свой риск; в частности, ничего не гарантируется в отношении безошибочной работы, корректности, полноты, доступности и сохранности конфигурации и данных. **Housekeeper может менять или удалять записи, файлы и статистику в вашей установке Home Assistant. Поэтому делайте бэкап Home Assistant перед каждой чисткой и регулярно делайте независимые бэкапы, в том числе вне системы Home Assistant.**
+
+## Лицензия
+
+Проект распространяется по [лицензии MIT](LICENSE).
+Copyright 2026 Roberto / bertel2020. Русская локализация — 2026 DemonIOI.
