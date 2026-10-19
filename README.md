@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DemonIOI/HA-Housekeeper-RU/main/custom_components/ha_housekeeper/brand/logo.png" alt="HA Housekeeper RU" width="160">
+  <img src="https://raw.githubusercontent.com/DemonIOI/HA-Housekeeper-RU/main/custom_components/ha_housekeeper/brand/logo.png?v=2" alt="HA Housekeeper RU" width="160">
 </p>
 
 <h1 align="center">HA Housekeeper RU</h1>
