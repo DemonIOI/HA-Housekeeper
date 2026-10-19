@@ -45,23 +45,21 @@ HA Housekeeper — интеграция обслуживания и анализ
 
 ## Скриншоты
 
-Интерфейс панели в русской версии — на русском; ниже — скриншоты оригинала.
-
 <p align="center">
-  <img src="screenshots/showcase-en/overview-desktop-light.png" alt="Обзор Housekeeping" width="100%">
+  <img src="screenshots/showcase-ru/overview-desktop-light.png" alt="Обзор Housekeeping" width="100%">
 </p>
 
 | Находки | Ремонт |
 | --- | --- |
-| ![Находки](screenshots/showcase-en/findings-desktop-light.png) | ![Ремонт](screenshots/showcase-en/repair-desktop-light.png) |
+| ![Находки](screenshots/showcase-ru/findings-desktop-light.png) | ![Ремонт](screenshots/showcase-ru/repair-desktop-light.png) |
 
 | Порядок | Путь зависимости |
 | --- | --- |
-| ![Порядок](screenshots/showcase-en/cleanup-desktop-light.png) | ![Путь зависимости](screenshots/showcase-en/graph-desktop-light.png) |
+| ![Порядок](screenshots/showcase-ru/cleanup-desktop-light.png) | ![Путь зависимости](screenshots/showcase-ru/graph-desktop-light.png) |
 
 | Автоматизации | Надёжность |
 | --- | --- |
-| ![Автоматизации](screenshots/showcase-en/runs-desktop-light.png) | ![Надёжность](screenshots/showcase-en/reliability-desktop-light.png) |
+| ![Автоматизации](screenshots/showcase-ru/runs-desktop-light.png) | ![Надёжность](screenshots/showcase-ru/reliability-desktop-light.png) |
 
 ## Почему HA Housekeeper?
 
